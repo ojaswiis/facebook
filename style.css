@@ -1,0 +1,39 @@
+/* .container{
+  border:2px solid black;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  align-content:center;
+  gap:20px;
+  height:100vh;
+  flex-wrap:wrap;
+  cursor:pointer;
+
+}
+.box{
+  width:100px;
+  height:100px;
+  color:white;
+  background-color:blue;
+  border:2px solid #ff0000;
+} */
+ .container{
+  border:2px solid black;
+ }
+ .item{
+  width:100px;
+  height:100px;
+  background-color:blue;
+ }
+ .box1{
+  background-color:blue;
+ }
+ .box2{
+  background-color:blanchedalmond;
+ }
+ .box3{
+  background-color:aqua;
+ }
+ .box4{
+  background-color:rgb(85, 124, 158);
+ }
