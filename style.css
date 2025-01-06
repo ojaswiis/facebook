@@ -41,8 +41,8 @@ form{
   background-color:#ffffff;
   padding:20px;
   border-radius:8px;
-  box-shadow:0 2px 4px black,
-              0 8px 16px black;
+  box-shadow:0 2px 4px rgb(0, 0, 0.1),
+              0 8px 16px rgb(0, 0, 0.1);
 }
 form input{
   height: 55px;
@@ -124,3 +124,25 @@ hr{
 .create-account a:hover{
 background:#3ba626;
 } 
+@media (max-width:900px){
+  .facebook-page{
+    flex-direction:column;
+    text-align:center;
+
+  }
+  .facebook-page .text{
+ margin-bottom:30px;
+  }
+}
+@media (max-width:460px){
+  .facebook-page h1{
+    font-size:3.5rem;
+
+  }
+  .facebook-page .text{
+    margin-bottom:30px;
+  }
+  form{
+    padding:15px;
+  }
+}
